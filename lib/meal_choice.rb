@@ -1,2 +1,5 @@
-# Your code here
-# For output purposes, use "puts" instead of "print" or "p"
+describe '#meal_choice' do
+  it 'should default to meat for the protein' do
+    expect(meal_choice("broccoli", "macaroni")).to eq("A plate of meat with broccoli and macaroni.")
+  end
+end
